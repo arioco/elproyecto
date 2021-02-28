@@ -10297,11 +10297,15 @@ Este modelo es el empleado por la mayoría de los modelos de fitness (muestran s
 &lt;&lt;toc-selective-expandable &quot;Tabla de Contenido&quot;&gt;&gt;
 &lt;/div&gt;</pre>
 </div>
-<div created="20210228230146801" modified="20210228232423048" title="Enlaces">
-<pre>&lt;$list filter=&quot;[tag{!!title}sort[title]]&quot;&gt;
-| &lt;$view field=&quot;title&quot;/&gt; | &lt;$view field=&quot;text&quot;/&gt; |
-&lt;br&gt;
-&lt;/$list&gt;</pre>
+<div created="20210228230146801" modified="20210228234524437" title="Enlaces">
+<pre>&lt;table&gt;
+&lt;$list filter=&quot;[tag{!!title}sort[title]]&quot;&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;$view field=&quot;title&quot;/&gt;&lt;/td&gt;
+&lt;td&gt;&lt;$view field=&quot;text&quot;/&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/$list&gt;
+&lt;/table&gt;</pre>
 </div>
 <div created="20210228114328050" modified="20210228140209375" tags="[[Principios Generales]]" title="España No Mola">
 <pre>España es un país hostil al empresario:
